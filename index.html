@@ -11,9 +11,21 @@
      text-align: center;
     }
     
-    html {
-    	background: cyan;
-    }
+    html{
+	/* This image will be displayed fullscreen */
+	background:url('http://barnimages.com/wp-content/uploads/2015/10/2015-10-26-roman-002-1024x683.jpg') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+}
      
      h1 {
      color: white; 
@@ -31,8 +43,6 @@
 
 </head>
 
-  <html>
-<body background="http://barnimages.com/wp-content/uploads/2015/10/2015-10-26-roman-002-1024x683.jpg">
   <img src="http://i.imgur.com/TrPwwqc.png" width="250">
   
 
