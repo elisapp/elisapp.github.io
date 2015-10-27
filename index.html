@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
+<header>
 <body>  
 <head>
   <title>Elisa Polanco | Official Site</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+  
 
   
   <style>
@@ -23,62 +25,126 @@ h1 {
 color: white;
 font-family: 'Mrs Saint Delafield', cursive;
 font-size: 50px;
-
-
 }
 
+h1 {
+transition: width 2s;
+-webkit-transition: width 2s;
+}
+
+h1:hover {
+width: 1000px;
+}
+
+
 h2 {
-color: cyan;
+color: black;
 font-family: 'Quicksand', sans-serif;
 }
 
+h3 {
+	color: #F0F0F0;
+	font-family: 'Quicksand', sans-serif;
+}
 
+h4 {
+	color: lightPink;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10px
+}
 
-a:link { color: black; }
-a:visited { color: gray; }
-a:hover { color: pink; }
+h5 {
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+
+a:link { 
+  color: black;
+ }
+
+a:visited { color: lightpink; }
+
+a:hover { 
+   color: pink;
+   font-size: 30px;
+ }
+
 a:active { color: yellow; }
 
 
 div {
    
-    background-color: red;
+    background-color: cyan;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 8s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 4s;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: cyan;}
+    animation-duration: 8s;
 }
 
 /* Standard syntax */
 @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    from {background-color: black;}
+    to {background-color: cyan;}
 }
+
+#what-i-do{
+      background-color: black;
+      /*clearing floats*/
+      overflow: hidden;
+    }
+    article{
+      padding: 10px;
+      width: 270px;
+      float: left;
+      background-color: #505050;
+      margin: 5px;
+      height: 150px;
+      border-radius: 3px;
+    }
+    #who-i-am{
+    color: transparent;
+    background-color: #363636;
+    padding: 20px;
+    }
+    .container{
+      width: 900px;
+      /*centering*/
+      margin: 0 auto;
+    }
 
 
   </style>
+  </head>
+  <body>
+  <header>
+	<img src="http://i.imgur.com/TrPwwqc.png" width="250">
+  	<h1> The Elisa Polanco Experience .- </h1>
+	<p><h2>Welcome to my new site. It's under construction. Please check back soon!</h2></p>
+   </header>  
+   <section id="what-i-do">
+	<div class="container">
+	<h2>What I do</h2>
 
-</head>
+	<article>
+	<i class="fa fa-laptop fa-2x"></i>
+  	<h3>Advertising Design</h3><p><h4>Almost graduating from Miami International University of Art & Design!</h4></p></article>
+	<article>
+	<i class="fa fa-heartbeat fa-2x"></i>
+    <h3>Music</h3><p><h4>Currently working with Black Shadow Records/Universal Music Group.</h4></p></article>
+	<article>
+	<i class="fa fa-thumbs-up fa-2x"></i>
+    <h3>Good Energy</h3><p><h4>The Good Energy Riddim is one of the hottest albums in Jamaica. You can get it now by clicking on my instagram.</h4></p></article>
+	</div>
+	</section>    
+    <section id="who-i-am">
+		<div class="container">
+			<h2>Who I am</h2>
+    		<img src="http://i.imgur.com/jykPn4h.jpg" width="150">
+ 	 		<p><h5>I am originally from a beautiful island called Dominican Republic. I am also an artist and I like to create art with my voice and my hands.</h5></p></article>
+	</div>
+	</section>
+    
 
-  <img src="http://i.imgur.com/TrPwwqc.png" width="250">
-  
-
-   <h1> The Elisa Polanco Experience .- </h1>
-
-     <p><h2>Welcome to my new site.
-            It's under construction.
-            Please check back soon!
-
-</h2>
-                    
-                    
-   
 
 <p>                  
 <footer> 
@@ -91,7 +157,5 @@ div {
 </ul>
 </div>                   
 
- 
                     
 </body>
-
