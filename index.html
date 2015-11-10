@@ -8,79 +8,66 @@
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
   
-
+  <script>
+  function popup (){
+	window.open("fees.html", "popup", "height=300,width=300,top=200,left=400");  
+  }
+  </script>
   
   <style>
 html { 
   background: url(https://i.ytimg.com/vi/2GDPJGfGaPc/maxresdefault.jpg) no-repeat center center fixed; 
   background-size: cover;
-
 }
-
     body {
      text-align: center;
     }
-
 h1 {
 color: white;
 font-family: 'Mrs Saint Delafield', cursive;
 font-size: 50px;
 }
-
 h1 {
 transition: width 2s;
 -webkit-transition: width 2s;
 }
-
 h1:hover {
 width: 1000px;
 }
-
-
 h2 {
 color: black;
 font-family: 'Quicksand', sans-serif;
 }
-
 h3 {
 	color: #F0F0F0;
 	font-family: 'Quicksand', sans-serif;
 }
-
 h4 {
 	color: lightPink;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 10px
 }
-
 h5 {
 	color: black;
 	font-family: 'Quicksand', sans-serif;
 }
-
 a:link { 
   color: black;
  }
-
 a:visited { color: lightpink; }
-
 a:hover { 
    color: pink;
    font-size: 30px;
  }
-
 a:active { color: yellow; }
-
 ul {
 	color: Black;
 	font-family: Quicksand, sans-serif;
 }
-
 ul:hover {
 	color: White;
 	text-shadow: solid black;
 }
-
 div {
    
     background-color: cyan;
@@ -89,13 +76,11 @@ div {
     animation-name: example;
     animation-duration: 8s;
 }
-
 /* Standard syntax */
 @keyframes example {
     from {background-color: black;}
     to {background-color: cyan;}
 }
-
 #what-i-do{
       background-color: black;
       /*clearing floats*/
@@ -128,7 +113,6 @@ div {
     margin: 0;
     list-style-type: none;
 }
-
 a {
     float: center;
     width: 6em;
@@ -139,15 +123,16 @@ a {
     border-right: 1px solid white;
     font-family: Quicksand, sans-serif;
 }
-
 a:hover {
     background-color: hotPink;
 }
-
 li {
     display: inline;
 }
 
+#how-i-work{
+	    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_embroidery.png);
+}
 
   </style>
   </head>
@@ -187,7 +172,11 @@ li {
  	 		<p><h5>I am originally from a beautiful island called Dominican Republic. I am also an artist and I like to create art with my voice and my hands.</h5></p></article>
 	</div>
 	</section>
-	
+	<section id="how-i-work">
+    <h2>How I work</h2>
+    <p> <input type="button" value= "Check this out" onClick="popup()"></p>
+    </section>
+    
     
 
 
